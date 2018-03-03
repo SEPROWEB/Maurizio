@@ -1,0 +1,112 @@
+
+/* ---=== RIGHE COLORE ALTERNATO ===--- */
+.table_row_pair {
+background-color: #EDEDED;
+line-height:      24px;
+}
+.table_row_unpair {
+background-color: #FFFFFF;
+line-height:      24px;
+}
+/* --------------------------------------*/
+
+/* ---=== BOTTONE FORM ===--- */
+.send_button {
+background-color:   #999999;
+color:              #ffffff;
+padding:            10px;
+}
+/* -------------------------- */
+
+#module_tng_community_request_registration_responsive_container {
+width:            100%;
+float:            left;
+}
+
+#module_tng_community_request_registration_responsive_intro_text_div{
+background-color: #EEEEEE;
+border:           1px solid #C6C7C9;
+padding:          15px 24px;
+margin-top:       10px;
+margin-bottom:    15px;
+}
+
+#module_tng_community_request_registration_responsive_pay_now_text_div{
+background-color: #D69F0F;
+border:           1px solid #C6C7C9;
+padding:          15px 24px;
+margin-top:       10px;
+margin-bottom:    15px;
+text-align:       center;
+color:            white;
+font-weight:      bold;
+font-size:        +1.5em;
+display:          none;
+}
+
+#module_tng_community_request_registration_responsive_pay_now_text_div a{
+color:       white;
+font-weight: bold;
+font-size:   20px;
+text-transform: uppercase;
+}
+
+#module_community_request_registration_request_form{
+/*margin:10px 0;
+background-image: url(../images/fondo_form_mail.jpg);
+float: left;
+width:99.9%;*/
+/*height: 375px;*//*
+padding:10px;*/
+}
+
+#module_tng_community_request_registration_responsive_request_table{
+margin: 0 auto;
+padding:5px 0;
+width: 100%;
+}
+
+#module_tng_community_request_registration_responsive_request_table th{
+text-align: right;
+color: #797979;
+font-family: Arial,Helvetica,sans-serif;
+font-weight:bolder;
+}
+#module_tng_community_request_registration_responsive_request_table td{
+vertical-align:middle;
+}
+
+#module_tng_community_request_registration_responsive_request_table input{
+width:300px;
+}
+
+#module_tng_community_request_registration_responsive_request_table input[type=checkbox]{
+width:auto;
+vertical-align: bottom;
+}
+
+#module_tng_community_request_registration_responsive_request_table textarea{
+width:450px;
+}
+
+.tng_community_request_registration_responsive_cell_highlight{
+border-color:red;
+}
+
+#module_tng_community_request_registration_responsive_form_div{
+background-color:#dedede;
+margin:10px 0;
+padding:10px;
+}
+
+#module_tng_community_request_registration_responsive_form_div input[type="text"],
+#module_tng_community_request_registration_responsive_form_div input[type="email"],
+#module_tng_community_request_registration_responsive_form_div textarea{
+width:100%;
+margin: 10px auto;
+}
+#module_tng_community_request_registration_responsive_form_div label{
+color: #797979;
+font-family: Arial,Helvetica,sans-serif;
+font-weight:bolder;
+}

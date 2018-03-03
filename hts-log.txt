@@ -1,0 +1,15 @@
+HTTrack3.44-1+htsswf+htsjava launched on Sat, 03 Mar 2018 11:09:02 at http://www.idffy.it/mariadamico/ +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2010], %s -->" -%l "en, en, *" http://www.idffy.it/mariadamico/ -O1 "C:\My Web Sites\Luis" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:09:02	Info: 	Note: due to www.idffy.it remote robots.txt rules, links begining with these path will be forbidden: /site_200/fstore, /site/ (see in the options to disable this)
+11:10:28	Error: 	"Not Found" (404) at link www.idffy.it/site_200/modules/tng_community_login/style/images/login_table_container_footer_left.jpg (from www.idffy.it/site_200/modules/tng_community_login/style/default_bootstrap/module_tng_community_login.css)
+11:10:28	Error: 	"Not Found" (404) at link www.idffy.it/site_200/modules/tng_community_login/style/images/login_table_container_footer_center.jpg (from www.idffy.it/site_200/modules/tng_community_login/style/default_bootstrap/module_tng_community_login.css)
+11:10:28	Error: 	"Not Found" (404) at link www.idffy.it/site_200/modules/tng_community_login/style/images/login_table_container_footer_right.jpg (from www.idffy.it/site_200/modules/tng_community_login/style/default_bootstrap/module_tng_community_login.css)
+
+HTTrack Website Copier/3.44-1 mirror complete in 1 minutes 26 seconds : 76 links scanned, 72 files written (2459955 bytes overall) [2075016 bytes received at 24128 bytes/sec], 538099 bytes transfered using HTTP compression in 24 files, ratio 21%, 6.1 requests per connection
+(3 errors, 0 warnings, 1 messages)

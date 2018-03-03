@@ -1,0 +1,111 @@
+.TNG_module_content_contents_title_container {
+border:         0px solid;
+/* color:          #000000; */
+font-size:      24px;
+font-weight:    lighter;
+width:          100%;
+/* padding-bottom: 5px; */
+/* border-bottom:  1px solid #D1D1D1; */
+
+color: #6E7742;
+}
+
+.TNG_module_content_contents_title_container_home{
+border:         0px solid;
+color:          #6E7742;
+font-size:      24px;
+font-weight:    lighter;
+padding-bottom: 10px;
+border-bottom:  1px solid;
+}
+
+.TNG_module_content_contents_title_container_bottom_spacer{
+width:  100%;
+padding-bottom: 20px;
+}
+
+.TNG_module_content_contents_subtitle_container{
+border:         0px solid;
+color:          #6E7742;
+font-size:      150%;
+font-weight:    normal;
+padding-bottom: 5px;
+}
+
+.TNG_module_content_contents_subtitle_container_home{
+border:         0px solid;
+color:          #6E7742;
+font-size:      150%;
+font-weight:    normal;
+padding-bottom: 5px;
+/*padding-bottom: 20px;
+padding-top:    20px;*/
+}
+
+.TNG_module_content_contents_text_container {
+border:      0px solid;
+width:       100%;
+/* padding-top: 5px; */
+}
+
+.TNG_module_content_contents_text_container_home {
+border:      0px solid;
+width:       100%;
+/*padding-top: 20px;*/
+}
+
+.TNG_module_content_top_toolbar{
+border:        1px solid #D1D1D1;
+width:         100%;
+padding-top:   5px;
+padding-bottom:5px;
+width:         100%;
+/*padding-left:  5px ;*/
+background-color: #E0E0E0;
+}
+
+.TNG_module_content_bottom_toolbar{
+border:        0px solid;
+width:         100%;
+margin-top:    30px;
+/*padding-left:  5px ;*/
+}
+
+.TNG_module_content_text_visit_counter{
+color:         #666666;
+font-size:     82%;
+font-family:   Arial,Helvetica,sans-serif;
+padding-right: 10px;
+}
+
+.TNG_module_content_last_edit{
+color:         #666666;
+font-size:     82%;
+font-family:   Arial,Helvetica,sans-serif;
+padding-right: 10px;
+}
+
+.TNG_module_content_publish_date{
+color:         #666666;
+font-size:     82%;
+font-family:   Arial,Helvetica,sans-serif;
+/* padding-right: 10px; */
+padding-left:  2px;
+}
+
+.TNG_module_content_owner{
+color:         #666666;
+font-size:     82%;
+font-family:   Arial,Helvetica,sans-serif;
+/* padding-right: 10px; */
+padding-left:  10px;
+font-weight:   bold;
+}
+
+.TNG_module_content_exploded_view{
+color:         #666666;
+font-size:     82%;
+font-family:   Arial,Helvetica,sans-serif;
+padding-right: 10px;
+float: right;
+}

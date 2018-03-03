@@ -1,0 +1,811 @@
+/**********************************************
+Version:     1.04
+Relase date: 25/06/2015
+**********************************************/
+
+html {
+background-color:       #444444;
+height:             100%;
+}
+
+body {
+padding:                0px;
+margin:                 0px;
+/*font-size:              13px;*/
+font:                   78%/130% "Verdana","Arial","Helvetica",sans-serif;
+color:                  #222222;
+min-height:                 100%;
+}
+
+span {
+/*color:                  #FFFFFF;*/
+}
+
+div {
+border:                 0px;
+}
+
+a {
+text-decoration:        none!important;
+}
+
+h1 {
+padding:                0px;
+margin:                 5px 5px 5px 5px;
+}
+
+h2 {
+padding:                0px;
+margin:                 5px 5px 5px 5px;
+}
+
+h3 {
+padding:                0px;
+margin:                 5px 5px 5px 5px;
+}
+
+h4 {
+padding:                0px;
+margin:                 5px 5px 5px 5px;
+}
+
+h5 {
+padding:                0px;
+margin:                 5px 5px 5px 5px;
+}
+
+h6 {
+padding:                0px;
+margin:                 5px 5px 5px 5px;
+}
+
+.TNG_inline_icon {
+/* classe globale assegnata elle immagini usate per le icone inline */
+vertical-align:         middle;
+}
+
+.TNG_main_layout_template_table {
+width:                  100%;
+border-collapse:        collapse;
+}
+
+.TNG_main_layout_template_table td {
+vertical-align:         top;
+/*
+padding:                0px;
+border:                 0px;
+*/
+}
+
+#TNG_main_layout_template_main_header_container {
+/***********************************************************************
+Contenitore esterno della sezione header del template
+***********************************************************************/
+/*padding:                0px;
+margin:                 0px;*/
+background:             #BAC405;
+}
+
+#TNG_main_layout_template_main_page_container {
+/***********************************************************************
+Contenitore di tutta la pagina racchiusa nella sezione html body
+***********************************************************************/
+/*margin:                 0 auto;
+width:                  1024px;
+margin-bottom:          15px;*/
+border:                 0px;
+}
+
+#TNG_main_layout_template_main_footer_container {
+/***********************************************************************
+Contenitore esterno della sezione footer del template
+***********************************************************************/
+/*width:                  1024px;
+margin:                 0px auto;*/
+}
+
+#TNG_main_layout_template_footer_container {
+/***********************************************************************
+Contenitore interno della sezione footer del template
+***********************************************************************/
+padding:                0px;
+margin:                 0px;
+background: #BAC405;
+min-height: 100px;
+color: white;
+}
+
+#TNG_main_layout_template_main_nav_container {
+min-height: 20px;
+border-radius:0;
+border:none;
+}
+
+#TNG_main_layout_template_content_container {
+/***********************************************************************
+Contenitore della tabella principale di layout
+***********************************************************************/
+/* min-height:             650px; */
+}
+
+/***********************************************************************
+Celle della tabella di layout
+***********************************************************************/
+#TNG_main_layout_template_table_left_cell {
+/*
+padding:                0px;
+margin:                 0px;
+*/
+}
+
+#TNG_main_layout_template_table_center_cell {
+/*
+padding:                0px;
+margin:                 0px;
+*/
+}
+
+#TNG_main_layout_template_table_right_cell {
+/*
+padding:                0px;
+margin:                 0px;
+*/
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index:5;
+}
+
+.affix-top {
+  width: 100%;
+    z-index:5;
+}
+
+.affix-bottom {
+  position: absolute;
+  width: 100%;
+    z-index:5;
+}
+
+/***********************************************************************
+Aree del template
+***********************************************************************/
+#TNG_main_layout_template_area_body_header {
+/*height:                 100px;*/
+border:                 0px;
+position:               relative;
+}
+
+#TNG_main_layout_template_area_body_left {
+border-bottom: 1px solid #EEEEEE;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+
+@media (min-width: 767px) {
+    #TNG_main_layout_template_area_body_left {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    }
+}
+
+#TNG_main_layout_template_area_body_center {
+padding:                0px;
+margin:                 0px;
+}
+
+
+#TNG_main_layout_template_area_body_right {
+/* Contenitore interno dell'area body_right */
+padding:                0px;
+border:                 0px;
+width:                  200px;
+margin:                 10px 0px 0px 5px;
+}
+
+#TNG_main_layout_template_area_body_footer {
+height:                 100px;
+border:                 0px;
+}
+
+.tng_main_layout_template_wrapper {
+max-width:2000px;
+background-color:white;
+box-shadow: 0 0 15px #000000;
+margin:0 auto;
+min-height: 100%;
+height: auto !important;
+height: 100%;
+overflow:hidden;
+}
+
+/***********************************************************************
+Gestione delle sezioni dei moduli
+***********************************************************************/
+.TNG_default_module_header_container {
+/* Contenitore di default della sezione header dei moduli */
+border:                 0px;
+}
+
+.TNG_default_module_toolbar_container {
+/* Contenitore di default della sezione toolbar dei moduli */
+border:                 0px;
+text-align:             right;
+margin:                 0px 0px 10px 0px;
+}
+
+.TNG_default_module_content_container {
+/* Contenitore di default della sezione content dei moduli */
+border:                 0px;
+}
+
+.TNG_default_module_footer_container {
+/* Contenitore di default della sezione footer dei moduli */
+border:                 0px;
+}
+
+.TNG_main_layout_template_main_upper_content_container {
+margin-top: 30px;
+}
+
+/********************************************************************************************
+Sezione dei titoli delle pagine  ( default)
+********************************************************************************************/
+.TNG_default_page_title_container {
+/* Contenitore di default della sezione del titolo delle pagine */
+/*
+border:                 0px;
+border-bottom:          1px solid #DADADA;
+margin:                 10px 0px 20px 0px;
+padding:                5px 0px 5px 0px;
+*/
+border:                0px;
+padding:               10px 15px;
+background-color:      #b1dce5;
+text-transform:        uppercase;
+color:                 #165562;
+}
+
+.TNG_default_page_title_text {
+/* Testo di default della sezione del titolo delle pagine */
+/*
+color:                  #666666;
+font-family:            sans-serif;
+font-size:              24px;
+font-weight:            bold;
+*/
+font-weight:           bold;
+font-size:             13px;
+color:                 #165562;
+display:               inline-block;
+}
+
+/********************************************************************************************
+Sezione di default del layout interno dei moduli
+********************************************************************************************/
+.TNG_default_layout_table {
+/* Div di usato come tabella nella renderizzazione del layout dei moduli */
+display:               table;
+width:                 100%;
+margin:                0px 0px 10px 0px;
+}
+
+.TNG_default_layout_table_row {
+/* Div di usato come riga nella renderizzazione del layout dei moduli */
+display:               table-row;
+}
+
+.TNG_default_layout_table_cell {
+/* Div di usato come cella delle singole sezioni nella renderizzazione del layout dei moduli */
+display:               table-cell;
+width:                 50%;
+}
+
+.TNG_default_layout_table_section_left_container {
+/* Div di usato come contenitore delle singole sezioni SX nella renderizzazione del layout dei moduli */
+border:                1px solid #d3d0d0;
+margin:                0px 5px 0px 0px;
+padding:               10px;
+border-radius:         3px;
+box-shadow:            0 0 5px 0 #cccccc, 0 1px 15px -10px #cccccc;
+}
+
+.TNG_default_layout_table_section_right_container {
+/* Div di usato come contenitore delle singole sezioni DX nella renderizzazione del layout dei moduli */
+border:                1px solid #d3d0d0;
+margin:                0px 0px 0px 5px;
+padding:               10px;
+border-radius:         3px;
+box-shadow:            0 0 5px 0 #cccccc, 0 1px 15px -10px #cccccc;
+}
+
+.TNG_default_layout_table_section_container {
+/* Div di usato come contenitore delle singole sezioni nella renderizzazione del layout dei moduli */
+border:                1px solid #d3d0d0;
+margin:                0px 0px 10px 0px;
+padding:               10px;
+border-radius:         3px;
+box-shadow:            0 0 5px 0 #cccccc, 0 1px 15px -10px #cccccc;
+}
+
+/********************************************************************************************
+Sezione della tabella di default dei dati
+********************************************************************************************/
+.TNG_default_data_table {
+/* Tabella di default usata per la gestione dei dati */
+border:                0px;
+width:                 100%;
+border-collapse:       collapse;
+}
+
+.TNG_default_data_table tr {
+/* Tutti i tag TH della tabella di default usata per la gestione dei dati */
+border-bottom:         1px dotted #ccc
+}
+
+.TNG_default_data_table .TNG_div_as_tr {
+/* Tutti i tag TH della tabella di default usata per la gestione dei dati */
+border-bottom:         1px dotted #ccc
+}
+
+.TNG_default_data_table th {
+/* Tutti i tag TH della tabella di default usata per la gestione dei dati */
+text-align:            left;
+padding:               5px 5px 5px 0px ;
+vertical-align:        middle;
+font-size:             12px;
+width:                 250px;
+}
+
+.TNG_default_data_table .TNG_div_as_th {
+text-align:            left;
+padding:               5px 5px 5px 0px ;
+font-size:             12px;
+display:               inline-block;
+width:                 50%;
+font-weight:           bold;
+}
+
+.TNG_default_data_table td {
+/* Tutti i tag TD della tabella di default usata per la gestione dei dati */
+text-align:            left;
+padding:               5px 5px 5px 0px ;
+vertical-align:        middle;
+font-size:             12px;
+}
+
+.TNG_default_data_table .TNG_div_as_td {
+/* Tutti i tag TD della tabella di default usata per la gestione dei dati */
+text-align:            left;
+padding:               5px 5px 5px 0px ;
+font-size:             12px;
+display:               inline-block;
+width:                 50%;
+}
+
+.TNG_default_data_table  td  input[type=text] ,
+.TNG_default_data_table .TNG_div_as_td input[type=text]{
+/* Tutti i tag INPUT della tabella di default contenuti nelle celle usata per la gestione dei dati */
+width:                 100%;
+}
+
+/********************************************************************************************
+Sezione del forms toolkit
+********************************************************************************************/
+.TNG_default_ftk_required_field_tested {
+/* Classe  di default applicata a tutti i campi required delle form del forms toolkit dopo il processamento con jquery */
+background-color:      #FFB2B2;
+}
+
+.TNG_default_ftk_unique_field_tested {
+/* Classe  di default applicata a tutti i campi unique delle form del forms toolkit dopo il processamento con jquery */
+background-color:      #FFB2B2;
+}
+
+.TNG_default_ftk_malformed_field_tested {
+/* Classe  di default applicata a tutti i campi malformed delle form del forms toolkit dopo il processamento con jquery */
+background-color:      #FFB2B2;
+}
+
+.TNG_default_ftk_required_field_text {
+/* Classe di default applicata agli span di tutti i campi required delle form del forms toolkit */
+margin:                0px 0px 0px 10px;
+font-size:             0.8em;
+font-style:       italic;
+}
+
+.TNG_default_ftk_form_container {
+/* Contenitore di default delle form del forms toolkit */
+border:                0px;
+margin:                0px 0px 0px 0px;
+}
+
+.TNG_default_ftk_form_container .TNG_div_as_th {
+display:               inline-block;
+width:                 50%;
+padding:               5px;
+font-weight:           bold;
+}
+
+.TNG_default_ftk_form_container .TNG_div_as_td {
+display:               inline-block;
+width:                 50%;
+padding:               5px;
+}
+
+.TNG_default_ftk_form_container .TNG_div_as_tr {
+/*border-bottom:         1px solid #DDDDDD;*/
+}
+
+.TNG_default_ftk_form_title_container {
+/* Contenitore di default del titolo delle form del forms toolkit */
+border:                0px;
+margin:                0px 0px 0px 0px;
+padding:               5px 0px 5px 0px;
+border-bottom:         1px solid #CCCCCC;
+}
+
+.TNG_default_ftk_form_title_text {
+/* Testo di default del titolo delle form del forms toolkit */
+font-weight:           bold;
+font-size:             18px;
+text-transform:        uppercase;
+}
+
+.TNG_default_ftk_form_button_container {
+/* Contenitore di default della sezione dei bottini della form del forms toolkit */
+border:                0px;
+margin:                20px 0px 20px 0px;
+text-align:            right;
+}
+
+.TNG_default_ftk_list_container {
+/* Contenitore di default delle liste del forms toolkit */
+border:                0px;
+}
+
+.TNG_default_ftk_list_title_container {
+/* Contenitore di default del titolo delle liste del forms toolkit */
+border:                0px;
+margin:                0px 0px 0px 0px;
+padding:               5px 0px 5px 0px;
+border-bottom:         1px solid #CCCCCC;
+}
+
+.TNG_default_ftk_list_title_text {
+/* Testo di default del titolo delle liste del forms toolkit */
+font-weight:           bold;
+font-size:             18px;
+text-transform:        uppercase;
+}
+
+.TNG_default_ftk_list_table {
+border-collapse:       collapse;
+width:                 100%;
+}
+
+.TNG_default_ftk_list_table th{
+text-align:            left;
+background-color:      #DDDDDD;
+border:                2px solid #CCCCCC
+padding:               3px;
+height:                30px;
+}
+
+.TNG_default_ftk_list_table tr{
+border:                2px solid #CCCCCC
+}
+
+.TNG_default_ftk_list_table td {
+text-align:            left;
+border:                2px solid #CCCCCC
+padding:               5px;
+}
+
+.TNG_default_ftk_list_table img {
+vertical-align:        middle;
+margin:                0px 2px 0px 2px;
+}
+
+.TNG_default_ftk_list_container .TNG_div_as_table {
+display:               table;
+width:                 100%;
+}
+
+.TNG_default_ftk_list_container .TNG_div_as_thead {
+display:               table-header-group;
+width:                 100%;
+}
+
+.TNG_default_ftk_list_container .TNG_div_as_tbody{
+display:               table-row-group;
+width:                 100%;
+}
+
+.TNG_default_ftk_list_container .TNG_div_as_tr {
+display:               table-row;
+width:                 100%;
+border:                2px solid #CCCCCC
+}
+
+.TNG_default_ftk_list_container .TNG_div_as_th {
+text-align:            left;
+background-color:      #DDDDDD;
+padding:               5px;
+display:               table-cell;
+font-weight:           bold;
+vertical-align:        middle;
+}
+
+.TNG_default_ftk_list_container .TNG_div_as_td {
+text-align:            left;
+padding:               5px;
+display:               table-cell;
+vertical-align:        middle;
+}
+
+.TNG_default_ftk_list_inline_form_cell {
+/* Cella ( tag TD ) di default applicato alle celle delle form inline ( filtri ) delle liste */
+}
+
+/********************************************************************************************
+Sezione del pathway di default del sistema
+********************************************************************************************/
+.TNG_main_pathway_container {
+/* Contenitore del pathway di sistema */
+border:                0px;
+padding:               10px 15px;
+background-color:      #b1dce5;
+text-transform:        uppercase;
+margin-bottom:         15px;
+color:                 #165562;
+}
+
+.TNG_main_pathway_entry_link,
+a.TNG_main_pathway_entry_link
+{
+/* Link di tutti gli oggetti del pathway di sistema */
+text-decoration:       none;
+color:                 #165562;
+}
+
+a.TNG_main_pathway_entry_link:hover,
+a.TNG_main_pathway_entry_link:active,
+a.TNG_main_pathway_entry_link:focus {
+color:                 #1E8094;
+border-top:            1px solid #1E8094;
+border-bottom:         1px solid #1E8094;
+text-decoration: none;
+}
+
+.TNG_main_pathway_entry_current_text {
+/* Testo della entry corrente del pathway di sistema */
+font-weight:           bold;
+font-size:             13px;
+color:                 #165562;
+}
+
+.TNG_main_pathway_entry_text {
+/* Testo delle entry del pathway di sistema */
+}
+
+/********************************************************************************************
+Classi globali del pager di default di sistema
+********************************************************************************************/
+.TNG_default_pager_container {
+/* Contenitore di default del pager di sistema */
+border:           0px;
+margin:           5px 0px 5px 0px;
+padding:          0px 0px 0px 0px;
+text-align:       right;
+}
+
+.TNG_default_pager_first_page_button {
+/* Classe applicata al bottone della prima pagina */
+margin:           0px 5px 0px 0px;
+background-color: #C4C4C4;
+}
+
+.TNG_default_pager_last_page_button {
+/* Classe applicata al bottone dell'ultima pagina */
+margin:           0px 0px 0px 5px;
+background-color: #C4C4C4;
+}
+
+.TNG_default_pager_back_button {
+/* Classe applicata al bottone per tornare indietro di una pagina */
+margin:           0px 5px 0px 0px;
+background-color: #9E9C9C;
+}
+
+.TNG_default_pager_forward_button {
+/* Classe applicata al bottone per avanzare di una pagina */
+margin:           0px 0px 0px 5px;
+background-color: #9E9C9C;
+}
+
+.TNG_default_pager_current_page_button {
+/* Classe applicata al bottone della pagina corrente */
+background-color: #719D2E;
+}
+
+.TNG_default_pager_page_button {
+/* Classe applicata ai bottini di selezioen delle pagine */
+}
+
+/********************************************************************************************
+Classi globali del selettore di items per pagina
+********************************************************************************************/
+.TNG_default_page_selector_selector_container {
+/* Contenitore di default del selettore di items per pagina */
+border:           0px;
+margin:           5px 0px 5px 0px;
+padding:          0px 0px 0px 0px;
+text-align:       right;
+}
+
+.TNG_default_page_selector_total_items_text {
+/* Testo del numero totale di items trovati */
+}
+
+.TNG_default_page_selector_total_items_value {
+/* Valore del numero totale di items trovati */
+font-weight:      bold;
+margin-right:     10px;
+}
+
+.TNG_default_page_selector_total_pages_text  {
+/* Testo del numero totale di pagine */
+margin-right:     10px;
+}
+
+.TNG_default_page_selector_per_page_items_text {
+/* Testo del numero totale di items per pagina */
+margin-left:      5px;
+margin-right:     10px;
+}
+
+/********************************************************************************************
+Sezione della toolbar amministrativa pubblica di sistema
+********************************************************************************************/
+.TNG_main_public_admin_func_toolbar {
+/* Contenitore della toolbar amministrativa pubblica di una funzione */
+border:                0px;
+border-bottom:         1px solid #DADADA;
+text-align:            right;
+margin:                5px 0px 5px 0px;
+}
+
+.TNG_main_public_admin_object_toolbar {
+/* Contenitore della toolbar amministrativa pubblica di un singolo oggetto */
+border:                0px;
+text-align:            center;
+margin:                5px 5px 5px 5px;
+/*float:                 right;*/
+}
+
+/********************************************************************************************
+Classi relative container degli errori interno del modulo
+********************************************************************************************/
+.TNG_default_module_error_container {
+/* Contenitore di default degli errori di tipo inline ( interni dei moduli ) */
+border:           1px solid;
+border-radius:    5px;
+margin:           20px 0px 20px 0px;
+padding:          10px;
+background-color: #FFB2B2;
+/*font-weight:      bold;*/
+}
+
+.TNG_default_module_error_error_container {
+/* Contenitore degli errori di tipo inline con severità ERROR ( interni dei moduli ) */
+border:           1px solid;
+border-radius:    5px;
+margin:           20px 0px 20px 0px;
+padding:          10px;
+background-color: #FFB2B2;
+}
+
+.TNG_default_module_error_warning_container {
+/* Contenitore degli errori di tipo inline con severità WARNING ( interni dei moduli ) */
+border:           1px solid;
+border-radius:    5px;
+margin:           20px 0px 20px 0px;
+padding:          10px;
+background-color: #FFFF93;
+}
+
+.TNG_default_module_error_notice_container {
+/* Contenitore degli errori di tipo inline con severità NOTICE ( interni dei moduli ) */
+border:           1px solid;
+border-radius:    5px;
+margin:           20px 0px 20px 0px;
+padding:          10px;
+background-color: #CEE7FF;
+}
+
+.TNG_default_module_error_title_container {
+/* Contenitore del titolo degli errori di tipo inline ( interni dei moduli ) */
+margin:           0px 0px 0px 0px;
+}
+
+.TNG_default_module_error_title_text {
+/* Testo del titolo degli errori di tipo inline ( interni dei moduli ) */
+font-weight:      bold;
+font-family:      Verdana,Geneva,Tahoma,Arial,Helvetica,sans-serif;
+font-size:        1.4em;
+}
+
+.TNG_default_module_error_code_container {
+/* Contenitore del testo del codice degli errori di tipo inline ( interni dei moduli ) */
+margin:           0px 0px 10px 0px;
+}
+
+.TNG_default_module_error_code_text {
+/* Contenitore del testo del codice degli errori di tipo inline ( interni dei moduli ) */
+margin:           0px 0px 10px 0px;
+font-size:        0.9em;
+font-style:       italic;
+}
+
+.TNG_default_module_error_text_container {
+/* Contenitore del testo degli errori di tipo inline ( interni dei moduli ) */
+/*border:           1px solid;*/
+}
+.TNG_default_module_error_text_text {
+/* Test degli errori di tipo inline ( interni dei moduli ) */
+}
+
+/********************************************************************************************
+Stile dei link
+********************************************************************************************/
+body a {
+color: #67b04f;
+text-decoration: none;
+transition: 0.1s;
+}
+
+body a:hover, body a:focus, body a:active {
+color: #74C25A;
+text-decoration: underline;
+}
+
+/********************************************************************************************
+Sezioni body_header
+********************************************************************************************/
+
+#TNG_main_layout_template_area_body_header_3 {
+text-align: center;
+}
+
+.TNG_main_layout_template_outer_area_body_header_1 {
+border-bottom: 3px solid #67b04f;
+padding-bottom: 10px;
+}
+
+@media ( min-width: 768px ) {
+
+    .TNG_main_layout_template_outer_area_body_header_1 {
+    border-bottom: none;
+    padding-bottom: 0px;
+    }
+
+    #TNG_main_layout_template_area_body_header_3 {
+    text-align: inherit;
+    }
+}
+
+#TNG_main_layout_template_main_header_row_first{
+    background-color:#555555;
+}
+
+.TNG_main_layout_template_main_nav_navbar_container{
+    background-color: #dedede;
+}
+
+#TNG_module_content{
+    min-height:350px;
+}

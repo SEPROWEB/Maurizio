@@ -1,0 +1,267 @@
+/* ---=== EVIDENZA CAMPI NON COMPILATI ===--- */
+.tng_community_contattami_responsive_cell_highlight {
+background-color: #F5F590; /* Giallo */
+background-image: url("");
+}
+
+
+/* ---=== CONTENITORI PANNELLI TABELLE CONTATTI ===--- */
+#contenitore_pannello_contatto_principale {
+background-color: #EEEEEE;
+/*border:           1px solid #C6C7C9;*/
+margin:           20px 0;
+float:            left;
+width:            477px;
+min-height:       370px;
+}
+#contenitore_pannello_contatto_addizionale {
+background-color: #EEEEEE;
+/*border:           1px solid #C6C7C9;*/
+margin:           20px 0;
+float:            right;
+width:            477px;
+min-height:       370px;
+}
+#contenitore_pannello_contatto_addizionale_vuoto {
+background-color: #EEEEEE;
+/*border:           1px solid #C6C7C9;*/
+margin:           20px 0;
+float:            right;
+width:            477px;
+height:           370px;
+}
+/* --------------------------------------------------- */
+
+
+/* ---=== TABELLA DATI CONTATTO ===--- */
+#pannello_contatto_header_div {
+float:            left;
+width:            477px;
+height:           37px;
+}
+#module_tng_community_contattami_responsive_tabella_contatti {
+/*background-image: url("../../../modules/tng_community_contattami_responsive/images/table_bg.gif"); chiaro #F2F2F1 scuro #E7E7E7*/
+width:            100%;
+/*height:           155px;*/
+border:           0px;
+padding:          0px;
+}
+#module_tng_community_contattami_responsive_tabella_contatti tr {
+height:         30px;
+}
+
+#module_tng_community_contattami_responsive_tabella_contatti tr:nth-child(even) {
+background-color: #E7E7E7;
+}
+#module_tng_community_contattami_responsive_tabella_contatti tr:nth-child(odd) {
+background-color: #F2F2F1;
+}
+
+#module_tng_community_contattami_responsive_tabella_contatti th {
+/*border-bottom:  1px dotted #C6C7C9;*/
+text-align:     left;
+color:          #797979;
+font-family:    Arial,Helvetica,sans-serif;
+font-weight:    bolder;
+width:          38%;
+padding-left:   40px;
+}
+#module_tng_community_contattami_responsive_tabella_contatti td {
+/*border-bottom:  1px dotted #C6C7C9;*/
+text-align:     left;
+vertical-align: middle;
+font-size:      12px;
+}
+/* ----------------------------------------------*/
+
+
+/* ---=== RIGHE COLORE ALTERNATO ===--- */
+.table_row_pair {
+background-color: #EDEDED;
+line-height:      24px;
+}
+.table_row_unpair {
+background-color: #FFFFFF;
+line-height:      24px;
+}
+/* --------------------------------------*/
+
+/* ---=== BOTTONE FORM ===--- */
+.send_button {
+background-color:   #999999;
+color:              #ffffff;
+padding:            10px;
+}
+/* -------------------------- */
+
+#module_tng_community_contattami_responsive_container {
+width:            100%;
+float:            left;
+}
+
+#module_tng_community_contattami_responsive_intro_text_div{
+background-color: #EEEEEE;
+border:           1px solid #C6C7C9;
+padding:          15px 24px;
+margin-top:       10px;
+margin-bottom:    15px;
+}
+
+#module_tng_community_contattami_responsive_intro_text_div iframe,
+#module_tng_community_contattami_responsive_intro_text_div object,
+#module_tng_community_contattami_responsive_intro_text_div div,
+#module_tng_community_contattami_responsive_intro_text_div img{
+max-width:100%!important;
+}
+
+#module_tng_community_contattami_responsive_intro_text_div img{
+max-width:100%!important;
+height: auto !important;
+}
+
+.tabella_contatti label {
+font-weight:bolder;
+padding-right:10px;
+}
+
+.tabella_contatti a:link , .tabella_contatti a:visited , .tabella_contatti a:hover {
+text-decoration:none;
+color: #797979;
+font-weight:bolder;
+text-transform: none;
+}
+
+#contact_form{
+margin:10px 0;
+/*background-image: url(../images/fondo_form_mail.jpg);*/
+/*float: left;
+width:99.9%;
+height: 375px;*/
+padding:10px;
+background-color:#dedede;
+}
+
+#module_tng_community_contattami_responsive_contact_me_table{
+margin: 0 auto;
+padding:5px 0;
+}
+
+#module_tng_community_contattami_responsive_contact_me_table th{
+text-align: right;
+color: #797979;
+font-family: Arial,Helvetica,sans-serif;
+font-weight:bolder;
+}
+
+#module_tng_community_contattami_responsive_contact_me_table input{
+width:300px;
+}
+
+#module_tng_community_contattami_responsive_contact_me_table textarea{
+width:300px;
+}
+
+.TNG_community_contattami_content_left{
+width: 25px;
+}
+
+/* SEZIONE RESPONSIVE */
+.contact_section_container{
+/*background-color:#F2F2F1;*/
+margin-bottom:20px;
+margin-top:20px;
+}
+
+.contact_section_title{
+text-align:center;
+color:white;
+text-transform:uppercase;
+padding:2px;
+background-color:#999A9C;
+font-size:2.5rem;
+margin:0 -15px;
+}
+.contact_section_title a{
+color:white!important;
+}
+
+.contact_section_fields_container{
+/*height:330px;*/
+}
+
+.contact_section_spacer{
+height:20px;
+}
+
+.contact_section_field{
+font-size:12px;
+line-height:34px;
+margin:0 -15px;
+padding: 0 15px;
+}
+
+.contact_section_field label{
+margin-right:10px;
+margin-bottom:0px;
+color: #797979;
+font-family: Arial,Helvetica,sans-serif;
+font-weight: bolder;
+}
+.contact_section_field span{
+margin:0 10px;
+}
+
+.contact_section_field:nth-child(odd) {
+background: #e0e0e0;
+}
+
+.contenitore_pannello_contatto_addizionale_vuoto {
+/*background-color: #EEEEEE;*/
+/*border:           1px solid #C6C7C9;*/
+margin:           20px 0;
+height:           370px;
+padding:0!important;
+}
+
+.contenitore_pannello_contatto_addizionale_vuoto img{
+margin: auto;
+}
+
+#contact_form input,
+#contact_form textarea{
+width:100%;
+margin: 10px auto;
+}
+#contact_form label{
+color: #797979;
+font-family: Arial,Helvetica,sans-serif;
+font-weight:bolder;
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+
+@media (min-width: 544px) {
+}
+
+@media (max-width: 991px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+.contact_section_container {width:49%!important;}
+.contenitore_pannello_contatto_addizionale_vuoto{width:49%!important;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}

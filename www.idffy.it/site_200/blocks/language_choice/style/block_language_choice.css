@@ -1,0 +1,38 @@
+.language_choice_label_font {
+color: #949B6E;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.language_choice_lang_in_use_font {
+cursor:pointer;
+color: #E3B341;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+font-weight: bold;
+}
+
+#language_choice_div{
+visibility:       visible;
+position:         absolute;
+z-index:          300;
+left:             30%;
+top:              20px;
+background-color: #F6F6F3;
+border:           5px solid #FFFFFF;
+box-shadow:       5px 5px 8px #818181;
+width:            150px;
+}
+
+#language_choice_div a {
+cursor:pointer;
+color: #949B6E;
+display: block;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;
+line-height: 16px;
+padding: 6px;
+text-decoration: none;
+}

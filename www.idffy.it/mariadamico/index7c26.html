@@ -1,0 +1,548 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<!-- Mirrored from www.idffy.it/mariadamico/index.php?f4o=load&f4m=tng_community_contattami&f4a=build_contact_me_form by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 03 Mar 2018 16:09:30 GMT -->
+<head>
+  <!--
+  template: default_bootstrap
+  version:  1.01
+  date:     03/05/2016
+  -->
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <title>www.idffy.it - maria d'amico</title>
+
+ <!-- Custom description -->
+
+<!-- Custom keywords -->
+
+ <link rel="shortcut icon" href="http://www.idffy.it/site_200/templates/defualt_bootstrap/favicon.ico" />
+ <link href="../site_200/templates/default_bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+ <!-- CSS loader from current module -->
+<link href="../site_200/modules/tng_community_contattami_responsive/style/module_tng_community_contattami_responsive.css" rel="stylesheet" type="text/css" />
+
+<!-- Dyna CSS loader -->
+<link href="../site_200/js/dialog_box/dialog_box.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/footer_registration_banner/style/block_footer_registration_banner.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/language_choice/style/block_language_choice.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_header_menu_responsive/style/block_top_header_menu_responsive.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_header_language_choice_responsive/style/block_top_header_language_choice_responsive.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_header_social_net_responsive/style/block_top_header_social_net_responsive.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_header_left_logo_block_responsive/style/block_top_header_left_logo_block_responsive.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_header_center_user_showname_responsive/style/block_top_header_center_user_showname_responsive.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_header_right_user_image_responsive/style/block_top_header_right_user_image_responsive.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/top_responsive_menu/style/block_top_responsive_menu.css" rel="stylesheet" type="text/css" />
+<link href="../site_200/blocks/footer_menu_responsive/style/block_footer_menu_responsive.css" rel="stylesheet" type="text/css" />
+<!-- END Dyna CSS loader -->
+
+<!-- Dyna JS loader -->
+<script type="text/javascript" src="../site_200/js/cookiechoices/cookiechoices.js"></script>
+<script type="text/javascript" src="../site_200/js/dialog_box/dialog_box.js"></script>
+<!-- END Dyna JS loader -->
+
+<!-- Dyna JS CALL loader -->
+<script language="javascript">
+
+    var called = false ;
+
+    function addCookieAdv() {
+        cookieChoices.showCookieConsentBar( 'The site uses cookies to give you the best browsing experience on the site. By continuing to browse accept the use of cookies...',
+                                            'OK',
+                                            'More info',
+                                            'index54d0.html?f4o=load&amp;f4m=tng_contents&amp;f4a=build_show_content&amp;content_id=5'
+                                           );
+        return ;
+    }
+
+    // Verifica preseneza document.addEventListener
+    if( document.addEventListener )
+       {
+        document.addEventListener('DOMContentLoaded', addCookieAdv, false ) ;
+       }
+
+    else if ( document.attachEvent ) {  // IE
+
+        try {
+            var isFrame = window.frameElement != null ;
+        } catch(e) {}
+
+        // IE, the document is not inside a frame
+        if ( document.documentElement.doScroll && !isFrame ) {
+            function tryScroll(){
+                if (called) return ;
+                try {
+                    document.documentElement.doScroll("left") ;
+                    addCookieAdv() ;
+                } catch(e) {
+                    setTimeout(tryScroll, 10) ;
+                }
+            }
+            tryScroll() ;
+        }
+
+        // IE, the document is inside a frame
+        document.attachEvent("onreadystatechange", function(){
+            if ( document.readyState === "complete" ) {
+                addCookieAdv() ;
+            }
+        }) ;
+    }
+
+
+    // Old browsers
+    if (window.addEventListener)
+        window.addEventListener('load', addCookieAdv, false) ;
+    else if (window.attachEvent)
+        window.attachEvent('onload', addCookieAdv) ;
+    else {
+        var fn = window.onload ; // very old browser, copy old onload
+        window.onload = function() { // replace by new onload and call the old one
+            fn && fn() ;
+            addCookieAdv() ;
+        }
+    }
+</script>
+<!-- END JS CALL loader -->
+
+<!-- Dyna open graph injection -->
+<meta property="og:image" content="http://www.idffy.it/site_200/fstore/home_dirs/390300119361/UserImage/mari.jpg?804896193" />
+<!-- END Dyna open graph injection -->
+
+ <!-- Script per Flash -->
+<script type="text/javascript" src="../site_200/js/AC_RunActiveContent.js"></script>
+
+<!-- Prototype JS -->
+<script type="text/javascript" src="../site_200/js/prototype_1.6.1.js"></script>
+
+<!-- Jquery -->
+<script type="text/javascript" src="../site_200/js/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="../site_200/js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link href="../site_200/js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<!-- Funzioni JS -->
+<script type="text/javascript" src="../site_200/js/functions.js"></script>
+
+ <script type="text/javascript">
+ jQuery.noConflict();
+ jQuery( document ).ready(function(){
+    if( jQuery( '#TNG_main_layout_template_table_left_cell' ).length > 0 &&
+        jQuery( '#TNG_main_layout_template_table_left_cell' ).is(':empty') &&
+        jQuery( '#TNG_main_layout_template_table_right_cell' ).length > 0 &&
+        jQuery( '#TNG_main_layout_template_table_right_cell' ).is(':empty') ) {
+        jQuery( '#TNG_main_layout_template_table_left_cell' ).remove();
+        jQuery( '#TNG_main_layout_template_table_right_cell' ).remove();
+        jQuery( '#TNG_main_layout_template_table_center_cell' ).removeClass('col-sm-12 col-md-9 col-md-push-3 col-lg-8 col-lg-push-2').addClass('col-md-12');
+    }
+    else if( jQuery( '#TNG_main_layout_template_table_right_cell' ).length > 0 &&
+             jQuery( '#TNG_main_layout_template_table_right_cell' ).is(':empty') ) {
+        jQuery( '#TNG_main_layout_template_table_right_cell' ).remove();
+        jQuery('#TNG_main_layout_template_table_center_cell' ).removeClass('col-lg-8 col-lg-push-2').addClass('col-lg-9 col-lg-push-3');
+        jQuery('#TNG_main_layout_template_table_left_cell' ).removeClass('col-lg-2 col-lg-pull-8').addClass('col-lg-3 col-lg-pull-9');
+    }
+    else if( jQuery( '#TNG_main_layout_template_table_left_cell' ).length > 0 &&
+             jQuery( '#TNG_main_layout_template_table_left_cell' ).is(':empty') ) {
+        jQuery( '#TNG_main_layout_template_table_left_cell' ).remove();
+        jQuery('#TNG_main_layout_template_table_center_cell' ).removeClass('col-lg-8 col-lg-push-2').addClass('col-lg-9 col-lg-push-3');
+        jQuery('#TNG_main_layout_template_table_right_cell' ).removeClass('col-lg-2').addClass('col-md-pull-9 col-lg-3 col-lg-pull-9');
+    }
+ });
+ </script>
+ <!-- Files che devono  essere caricati per google analytics -->
+ </head>
+<body id="TNG_main_page_container" style="background-color: #E7DCC8;">
+<div class="tng_main_layout_template_wrapper" >
+
+<div id="TNG_main_layout_template_main_page_header_container"
+     class="TNG_main_layout_template_main_page_header_container">
+ <div id="TNG_main_layout_template_main_header_container"
+      class="TNG_main_layout_template_main_header_container">
+  <div id="TNG_main_layout_template_main_header_row_first"
+       class="TNG_main_layout_template_main_header_row row">
+   
+<div class="col-xs-6 block_top_header_menu_responsive_h_menu_external_container">
+ <div class="block_top_header_menu_responsive_h_menu_internal_container row">
+ <div class="navbar-header pull-left">
+  <button type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#tng_menu_top_header_menu_responsive_1698374940">
+   <span class="sr-only">menu di navigazione</span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+   <span class="icon-bar"></span>
+  </button>
+  <span class="navbar-brand visible-xs-block"></span>
+ </div>
+ <div id="tng_menu_top_header_menu_responsive_1698374940" class="collapse navbar-collapse pull-left">
+ <ul class="nav navbar-nav navbar-left">
+        <li><a href="index6fc1.html?f4o=load&amp;f4m=tng_community_area_riservata&amp;f4a=build_show_area_riservata" title="Area Riservata" target="">Area Riservata</a>
+        </li>
+        <li><a href="index00b6.html?f4o=load&amp;f4m=tng_community_registration&amp;f4a=build_password_recovery_form" title="Recupera password" target="">Recupera password</a>
+        </li>
+        <li><a href="index7a84.html?f4o=load&amp;f4m=tng_community_request_registration&amp;f4a=show_registration_request" title="Richiedi sito personale" target="">Richiedi sito personale</a>
+        </li>
+ </ul>
+ </div>
+ </div>
+</div>
+<div class="tng_language_selector_block_main_container col-xs-4">
+ <div class="tng_language_selector_block_icon_container pull-right">
+        <span class="tng_language_selector_block_selector_list_element"
+            onclick="window.location.href = 'index-2.html?f4o=post&amp;f4c=user_functions&amp;f4a=exec_set_language&amp;language_lc_code=it';" >
+         <img src="../site_200/blocks/top_header_language_choice_responsive/images/IT.png" />
+        </span>
+        <span class="tng_language_selector_block_selector_list_element"
+            onclick="window.location.href = 'index-2.html?f4o=post&amp;f4c=user_functions&amp;f4a=exec_set_language&amp;language_lc_code=en';" >
+         <img src="../site_200/blocks/top_header_language_choice_responsive/images/EN.png" />
+        </span>
+ </div>
+</div>
+<div class="top_header_social_net_responsive_block_main_container col-xs-2">
+ <div class="top_header_social_net_responsive_block_icon_container pull-right">
+ </div>
+</div>  </div>
+  <div id="TNG_main_layout_template_main_header_row_second"
+       class="TNG_main_layout_template_main_header_row row">
+   <div class="TNG_main_layout_template_outer_area_body_header_left col-xs-6 col-md-2">
+<div class="tng_main_logo_block_PUBLIC_make_block_main_container">
+ <div class="tng_main_logo_block_PUBLIC_make_block_logo_container">
+  <a href="index-2.html">
+   <img class="img-responsive hidden-xs hidden-sm visible-md visible-lg" style="position: relative; z-index:200 !important;" src="../site_200/templates/default_bootstrap/images/logo-b.png" />
+   <div class="visible-xs visible-sm hidden-md hidden-lg"><img class="img-responsive pull-left img-logo-small hidden-xxs" style="width: 40px;" src="../site_200/templates/default_bootstrap/images/logo-d.png"></div>
+  </a>
+ </div>
+</div></div>
+   <div class="TNG_main_layout_template_outer_area_body_header_right col-xs-6 col-md-2 col-md-push-8">
+<div class="tng_main_logo_block_PUBLIC_make_block_main_container">
+ <div class="tng_main_logo_block_PUBLIC_make_block_photo_box_container">
+ <img class="image-responsive" src="http://www.idffy.it/site_200/fstore/home_dirs/390300119361/UserImage/mari.jpg" />
+ </div>
+</div>
+</div>
+   <div class="TNG_main_layout_template_outer_area_body_header_center col-xs-12 col-md-8 col-md-pull-2">
+    <div class="tng_site_name_block_PUBLIC_make_block_main_container">
+     <div class="tng_site_name_block_PUBLIC_make_block_site_name_container">
+      <a href="index-2.html">
+       <span class="tng_site_name_block_PUBLIC_make_block_site_name_text">maria d'amico
+       </span>
+      </a>
+     </div>
+    </div></div>
+  </div>
+ </div>
+</div>
+
+<!-- BODY NAVIGATION -->
+<nav id="TNG_main_layout_template_main_nav_container"
+     class="TNG_main_layout_template_main_nav_navbar navbar navbar-default"
+     role="navigation" data-spy="affix" data-offset-top="126">
+ <div class="TNG_main_layout_template_main_nav_navbar_container container-fluid">
+  <div class="TNG_main_layout_template_main_nav_navbar_row row">
+   
+<div class="col-md-12 block_top_responsive_menu_h_menu_external_container">
+ <div class="block_top_responsive_menu_h_menu_internal_container row">
+ <div class="navbar-header pull-left">
+  <button type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#tng_menu_top_responsive_menu_1573795972">
+   <span class="sr-only">menu di navigazione</span>
+   <span>MENU</span>
+  </button>
+  <span class="navbar-brand top_responsive_menu_brand "><img class="img-responsive" src="http://www.idffy.it/site_200/fstore/referer_group_logo/logo_fenix_team.png"/></span>
+ </div>
+ <div id="tng_menu_top_responsive_menu_1573795972" class="top_responsive_menu_collapsible_container collapse navbar-collapse" style="">
+ <ul class="nav navbar-nav">
+        <li><a href="indexd41d.html?" title="Home"  target="">Home</a>
+        </li>
+        <li><a href="index7c26.html?f4o=load&amp;f4m=tng_community_contattami&amp;f4a=build_contact_me_form" title="Chi sono"  target="">Chi sono</a>
+        </li>
+        <li><a href="index83bd.html?f4o=load&amp;f4m=tng_community_miei_appuntamenti&amp;f4a=build_show_miei_appuntamenti" title="Eventi"  target="">Eventi</a>
+        </li>
+        <li><a href="index323e.html?f4o=load&amp;f4m=tng_community_blog&amp;f4a=build_show_blog" title="Blog"  target="">Blog</a>
+        </li>
+        <li><a href="https://shop.foreverliving.it/registrazione-sponsorizzata-390300119361.html" title="Registrazione"  target="_blank">Registrazione</a>
+        </li>
+        <li><a href="indexce3d.html?f4o=load&amp;f4m=tng_community_job_opportunity&amp;f4a=build_job_oppportunity_main_page" title="Opportunità di lavoro"  target="">Opportunità di lavoro</a>
+        </li>
+        <li><a href="https://shop.foreverliving.it/shop.html?Tag_utente=390300119361" title="Catalogo prodotti"  target="_blank">Catalogo prodotti</a>
+        </li>
+        <li><a href="https://shop.foreverliving.it/login.html?Tag_utente=390300119361" title="Area Riservata Shop"  target="_blank">Area Riservata Shop</a>
+        </li>
+ </ul>
+ </div>
+ </div>
+</div>  </div>
+ </div>
+</nav>
+
+<div id="TNG_main_layout_template_main_page_control_container"></div>
+
+<div id="TNG_main_layout_template_main_page_container">
+ <div id="TNG_main_layout_template_content_container" class="container">
+  <div class="row">
+   <div id="TNG_main_layout_template_table_center_cell" class="col-sm-12 col-md-9 col-md-push-3 col-lg-8 col-lg-push-2"><div id="TNG_system_pathaway_container"><a href="index.html"><span class="TNG_system_pathaway_obj">Home</span></a>&nbsp;/&nbsp;<span class="TNG_system_pathaway_obj_active">Contact me</span></div>
+<div id="TNG_module_header"></div>
+<div id="TNG_module_content"><div id="TNG_module_tool_bar"></div>
+<div id="module_tng_community_contattami_responsive_container">
+ <div style="font-weight:bold;text-align: center;color: #797979;">To send me an e-mail click on address, fill in all form fields, and I'll answer to you as soon as possible!</div>
+
+ 
+ <div class="row" style="margin-left:0;margin-right:0;">
+ <div class="col-md-6 col-xs-12 contact_section_container pull-left">
+  <div class="contact_section_title left"><a data-toggle="collapse" href="#contact_section_fields_container_1">contact 1 <span class="caret"></span></a></div>
+  <div id="contact_section_fields_container_1" class="contact_section_fields_container collapse in">
+   <div class="contact_section_spacer"></div>
+   
+        <div class="contact_section_field"><label for="contact_1_name">Name :</label><span id="contact_1_name">maria</span></div>
+        <div class="contact_section_field"><label for="contact_1_surname">Surname :</label><span id="contact_1_surname">d'amico</span></div>
+        
+   
+           <div class="contact_section_field"><label for="contact_1_0">Email :</label><span id="contact_1_0">
+              <a href="javascript:void(0);"
+                 onClick="
+                          $( 'contact_form' ).show();
+                          $( 'module_community_contattami_contact_me_form_mail_to_value' ).value = 'mery73dam@yahoo.it' ;
+                          $( 'module_community_contattami_contact_me_form_name_value' ).focus() ;">mery73dam@yahoo.it
+              </a>
+              </span></div>
+           
+           <div class="contact_section_field"><label for="contact_1_1">Phone :</label><span id="contact_1_1">3881139655</span></div>
+           
+           <div class="contact_section_field"><label for="contact_1_2">Mobile :</label><span id="contact_1_2">3881139655</span></div>
+           
+  </div>
+ </div>
+    <div class="col-md-6 col-xs-12 contenitore_pannello_contatto_addizionale_vuoto pull-right hidden-sm hidden-xs">
+     <img class="img-responsive" src="../site_200/modules/tng_community_contattami_responsive/images/box_contatto_secondario.jpg">
+    </div>
+    </div>
+ <div id="contact_form" class="row" style="display:none;">
+  <form name="module_community_contattami_contact_me_form" id="module_community_contattami_contact_me_form">
+    <div class="col-md-4"
+         style="color: #797979;
+                font-family: Arial,Helvetica,sans-serif;
+                font-weight:bolder;">Please, fill in the field below with code shown inside the image:</div>
+    <div class="col-md-8">
+<div class="row">
+ <div class="col-md-12">
+  <label onmouseover="this.style.cursor='pointer'"
+         onmouseout="this.style.cursor='default'"
+         onclick="
+                  document.getElementById( 'img_key' ).src = 'http://www.idffy.it/site_200/library/php-captcha/php_captcha.php?'+Math.random() ;
+                 ">Generate new code:</label> <img id="img_key" name="img_key" style="width:100px;" src="http://www.idffy.it/site_200/library/php-captcha/php_captcha.php">
+ </div>
+</div>
+<div class="row">
+ <div class="col-md-12">
+  <label>Insert code:</label> <input name="number" type="text" id="number" style="width: 70px;">
+ </div>
+</div>
+</div>
+   <div class="col-md-12">
+    <label>Recipient :</label>
+    <input type="text"
+           readonly="readonly"
+           id="module_community_contattami_contact_me_form_mail_to_value"
+           name="module_community_contattami_contact_me_form_mail_to_value"
+           value="mery73dam@yahoo.it" />
+   </div>
+   <div class="col-md-12">
+    <label>Name :</label>
+    <input type= "text"
+           id= "module_community_contattami_contact_me_form_name_value"
+           name= "module_community_contattami_contact_me_form_name_value">
+   </div>
+   <div class="col-md-12">
+    <label>Surname :</label>
+    <input type= "text"
+           id= "module_community_contattami_contact_me_form_surname_value"
+           name= "module_community_contattami_contact_me_form_surname_value">
+   </div>
+   <div class="col-md-12">
+    <label>Email :</label>
+    <input type= "email"
+           id= "module_community_contattami_contact_me_form_mail_value"
+           name= "module_community_contattami_contact_me_form_mail_value">
+   </div>
+   <div class="col-md-12">
+    <label style="vertical-align: top;">Text :</label>
+    <textarea name= "module_community_contattami_contact_me_form_request_value"
+              id= "module_community_contattami_contact_me_form_request_value"
+              cols= "1"
+              rows= "4"></textarea>
+   </div>
+   <input type="hidden" name="module_community_contattami_contact_me_form_ip_value" value="181.66.247.221" />
+   <div class="col-md-12" style="text-align:center;">
+    <span class= "span_btn_new">
+       <input type= "button"
+              class= "send_button"
+              style= "width:100px;border:none;"
+              value= "Send"
+              OnClick= "
+                        JS_var_rc_check = '1' ;
+
+                        // Verifica del campo request_value
+                        var textRegEx = /^[a-zA-Z0-9àòèéùì()!?.,:;\-_\s']+$/ ;
+                        var UserText = $( 'module_community_contattami_contact_me_form_request_value' ).value ;
+                        if( $( 'module_community_contattami_contact_me_form_request_value' ).value == '' ||
+                            !UserText.match(textRegEx))
+                           {
+                            $( 'module_community_contattami_contact_me_form_request_value' ).addClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                            JS_var_rc_check = '04' ;
+                           }
+                        else
+                           {
+                            $( 'module_community_contattami_contact_me_form_request_value' ).removeClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                           }
+
+                        // Verifica del campo mail_value
+                        var emailRegEx = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/ ;
+                        var UserEmailAddress = $( 'module_community_contattami_contact_me_form_mail_value' ).value ;
+                        if( $( 'module_community_contattami_contact_me_form_mail_value' ).value == '' ||
+                            !UserEmailAddress.match(emailRegEx))
+                           {
+                            $( 'module_community_contattami_contact_me_form_mail_value' ).addClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                            JS_var_rc_check = '03' ;
+                           }
+                        else
+                           {
+                            $( 'module_community_contattami_contact_me_form_mail_value' ).removeClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                           }
+
+                        // Verifica del campo surname_value
+                        var surnameRegEx = /^[a-zA-Zàòèéùì'\s]+$/ ;
+                        var UserSurname = $( 'module_community_contattami_contact_me_form_surname_value' ).value ;
+                        if( $( 'module_community_contattami_contact_me_form_surname_value' ).value == '' ||
+                            !UserSurname.match(surnameRegEx))
+                           {
+                            $( 'module_community_contattami_contact_me_form_surname_value' ).addClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                            JS_var_rc_check = '02' ;
+                           }
+                        else
+                           {
+                            $( 'module_community_contattami_contact_me_form_surname_value' ).removeClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                           }
+
+                        // Verifica del campo name_value
+                        var nameRegEx = /^[a-zA-Zàòèéùì'\s]+$/ ;
+                        var UserName = $( 'module_community_contattami_contact_me_form_name_value' ).value ;
+                        if( $( 'module_community_contattami_contact_me_form_name_value' ).value == '' ||
+                            !UserName.match(nameRegEx))
+                           {
+                            $( 'module_community_contattami_contact_me_form_name_value' ).addClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                            JS_var_rc_check = '01' ;
+                           }
+                        else
+                           {
+                            $( 'module_community_contattami_contact_me_form_name_value' ).removeClassName( 'tng_community_contattami_responsive_cell_highlight' ) ;
+                           }
+
+                        // Verifica se non è stato compilato alcun campo
+                        if( $( 'module_community_contattami_contact_me_form_name_value' ).value == '' &&
+                            $( 'module_community_contattami_contact_me_form_surname_value' ).value == '' &&
+                            $( 'module_community_contattami_contact_me_form_mail_value' ).value == '' &&
+                            $( 'module_community_contattami_contact_me_form_request_value' ).value == '' )
+                           {
+                            JS_var_rc_check = '05' ;
+                           }
+
+                        if( JS_var_rc_check == '05' )
+                           {
+                            showDialog( 'Warning', 'Please, fill in all required form fields', 'warning', '' ) ;
+                            return false ;
+                           }
+                        else if( JS_var_rc_check == '01' )
+                           {
+                            showDialog( 'Warning', 'Form field <b>Name</b> has not been filled or contains invalid characters', 'warning', '' ) ;
+                            return false ;
+                           }
+                        else if( JS_var_rc_check == '02' )
+                           {
+                            showDialog( 'Warning', 'Form field <b>Surname</b> has not been filled or contains invalid characters', 'warning', '' ) ;
+                            return false ;
+                           }
+                        else if( JS_var_rc_check == '03' )
+                           {
+                            showDialog( 'Warning', 'Form field <b>Email</b> has not been filled or contains invalid characters', 'warning', '' ) ;
+                            return false ;
+                           }
+                        else if( JS_var_rc_check == '04' )
+                           {
+                            showDialog( 'Warning', 'Form field <b>Text</b> has not been filled or contains invalid characters', 'warning', '' ) ;
+                            return false ;
+                           }
+                        else
+                           {
+                            RcCheck = AJ_post_url( 'http://www.idffy.it/mariadamico/index.php?f4o=post&f4m=tng_community_contattami_responsive&f4a=exec_contact_me&data_name=module_community_contattami_contact_me_form', 'module_community_contattami_contact_me_form', 'process_json_response' ) ;
+                            if( RcCheck == '00' )
+                               {
+                                var array_textarea = document.getElementsByTagName( 'textarea' ) ;
+                                if( array_textarea && array_textarea.length )
+                                   {
+                                    for( var i = 0 ; i < array_textarea.length ; i++ )
+                                       {
+                                        array_textarea[i].value = '' ;
+                                       }
+                                   }
+                                var array_input    = document.getElementsByTagName( 'input' ) ;
+                                if( array_input && array_input.length )
+                                   {
+                                    for( var i = 0 ; i < array_input.length ; i++ )
+                                       {
+                                        if( array_input[i].type && array_input[i].type == 'text' )
+                                           {
+                                            if( array_input[i].id != 'module_community_contattami_contact_me_form_mail_to_value' )
+                                               {
+                                                array_input[i].value = '' ;
+                                               }
+                                           }
+                                       }
+                                   }
+                                document.getElementById( 'img_key' ).src = 'http://www.idffy.it/site_200/library/php-captcha/php_captcha.php?'+Math.random() ;
+                                $( 'contact_form' ).hide();
+                               }
+                           }
+                       ">
+    </span>
+   </div>
+  </form>
+ </div>
+</div>
+
+<div id="TNG_module_footer"></div></div>
+   <div id="TNG_main_layout_template_table_left_cell" class="col-sm-12 col-md-3 col-md-pull-9 col-lg-2 col-lg-pull-8"></div>
+   <div id="TNG_main_layout_template_table_right_cell" class="col-sm-12 col-md-3 col-lg-2"></div>
+  </div>
+  <div class="row">
+   <div id="TNG_main_layout_template_table_center_cell" class="col-sm-12"></div>
+  </div>
+ </div>
+</div>
+
+<footer id="TNG_main_layout_template_footer_container">
+<div class="tng_footer_responsive_PUBLIC_make_block_footer_menu_responsive_wrapper_container">
+ <div class="tng_footer_responsive_PUBLIC_make_block_footer_menu_responsive_container row">
+  <div class="col-md-2 hidden-xs hidden-sm"></div>
+  <div class="col-xs-12 col-md-8 footer_menu_responsive">
+  <ul class="footer_menu"><li><a href="indexd41d.html?" title="Home" target=""> Home</a></li><li><a href="index7c26.html?f4o=load&amp;f4m=tng_community_contattami&amp;f4a=build_contact_me_form" title="Contattami" target=""> Contattami</a></li><li><a href="index83bd.html?f4o=load&amp;f4m=tng_community_miei_appuntamenti&amp;f4a=build_show_miei_appuntamenti" title="Eventi" target=""> Eventi</a></li><li><a href="index323e.html?f4o=load&amp;f4m=tng_community_blog&amp;f4a=build_show_blog" title="Blog" target=""> Blog</a></li><li><a href="https://shop.foreverliving.it/registrazione-sponsorizzata-390300119361.html" title="Registrazione" target="_blank"> Registrazione</a></li><li><a href="index6fc1.html?f4o=load&amp;f4m=tng_community_area_riservata&amp;f4a=build_show_area_riservata" title="Area Riservata" target=""> Area Riservata</a></li>
+  </ul>
+  
+  </div>
+  <div class="col-md-2 hidden-xs hidden-sm"></div>
+ </div>
+ <div class="row">
+  <div class="col-md-12 footer_copyright_text_container">&copy; 2018 ForeverForYou</div>
+ </div>
+</div></footer>
+
+</div>
+</body>
+
+<!-- Mirrored from www.idffy.it/mariadamico/index.php?f4o=load&f4m=tng_community_contattami&f4a=build_contact_me_form by HTTrack Website Copier/3.x [XR&CO'2010], Sat, 03 Mar 2018 16:09:31 GMT -->
+</html>

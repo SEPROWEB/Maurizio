@@ -1,0 +1,39 @@
+/**********************************************
+Version:     1.02
+Relase date: 20/10/2014
+**********************************************/
+.block_top_header_menu_responsive_h_menu_internal_container li>a{
+color:white;
+background-color:#555555!important;
+font: 13px Verdana;
+padding-top:0!important;
+padding-bottom:0!important;
+}
+
+.block_top_header_menu_responsive_h_menu_internal_container ul{
+list-style-type: none;
+padding: 9px 0;
+/*margin: 0;*/
+}
+
+.block_top_header_menu_responsive_h_menu_internal_container .icon-bar{
+background-color:white!important;
+}
+
+.block_top_header_menu_responsive_h_menu_external_container{
+/*height:40px;*/
+}
+
+#TNG_main_layout_template_main_header_row_first{
+margin-left:0!important;
+margin-right:0!important;
+font-size:12px;
+}
+
+.block_top_header_menu_responsive_h_menu_internal_container .navbar-brand{
+height:40px;
+}
+.block_top_header_menu_responsive_h_menu_internal_container .navbar-toggle{
+padding-top:3px;
+padding-bottom:0;
+}

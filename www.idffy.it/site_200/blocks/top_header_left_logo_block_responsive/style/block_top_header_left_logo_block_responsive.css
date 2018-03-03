@@ -1,0 +1,21 @@
+.tng_main_logo_block_PUBLIC_make_block_logo_container {
+/* Contenitore del logo del sistema */
+border:     0px;
+margin-left:30px;
+/*text-align: center;*/
+margin-top: 12px;
+}
+.tng_main_logo_block_PUBLIC_make_block_logo_container a{
+height: 100px;
+padding: 31px 30px 33px;
+}
+
+.tng_main_logo_block_PUBLIC_make_block_logo_img {
+/* Immagine del logo del sistema */
+border:    0px;
+margin:    0px;
+padding:   0px;
+display:   inline-block;
+max-width: 235px;
+width:     100%;
+}

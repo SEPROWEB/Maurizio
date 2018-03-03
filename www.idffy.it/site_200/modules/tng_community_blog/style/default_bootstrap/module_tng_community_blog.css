@@ -1,0 +1,653 @@
+/* ---=== DIV Sezione Commenti ===--- */
+#TNG_community_blog_article_comment_div_container {
+background-color:#f3f3f1;
+margin-bottom:10px;
+padding:0 10px 10px 10px;
+}
+#TNG_community_blog_article_comment_div_header_title_text {
+padding:4px 0;
+border-bottom: 2px dotted #e1e1e1;
+}
+/*
+.TNG_community_blog_article_comment_stile_entry_chiaro {
+background-image: url("../images/banda_stile_lista_chiara.jpg");
+}
+*/
+.TNG_community_blog_article_comment_stile_entry_chiaro {
+background-color:#ffffff;
+}
+.TNG_community_blog_article_comment_stile_entry_scuro {
+/*background-image: url("../images/banda_stile_lista_scura.jpg");*/
+background-color:#dddddd;
+}
+
+
+
+
+
+/* ---=== FINE DIV Sezione Commenti ===--- */
+
+
+/* ---=== DIV Dettaglio articolo ===--- */
+#TNG_community_blog_article_detail_div_container {
+width:100%;
+margin-bottom:10px;
+float:left;
+}
+/* ### HEADER ### */
+/* --- STILE TABLE --- */
+#TNG_community_blog_article_detail_div_header_container_stile_lista_chiaro {
+background-image: url("../../images/banda_stile_lista_chiara.jpg");
+width:100%;
+float:left;
+/*margin-bottom:10px;*/
+}
+#TNG_community_blog_article_detail_div_header_container_stile_lista_scuro {
+/*background-image: url("../images/banda_stile_lista_scura.jpg");*/
+background-color:#dddddd;
+width:100%;
+float:left;
+/*margin-bottom:10px;*/
+}
+
+/* --- STILE INDEX --- */
+#TNG_community_blog_article_detail_div_header_container_stile_lista_index {
+background-color:#dddddd;
+width:100%;
+float:left;
+border-bottom:1px solid #f3f3f1;
+}
+#TNG_community_blog_article_detail_div_index_style_container {
+width:100%;
+/*margin-bottom:10px;*/
+float:left;
+}
+#TNG_community_blog_article_detail_div_index_style_title_container {
+background-color:#DDDDDD;
+line-height:32px;
+padding-left:20px;
+border-bottom:2px dotted #ffffff;
+font-size:16px;
+font-weight:bold;
+text-transform:uppercase;
+text-align:center;
+}
+#TNG_community_blog_article_detail_div_icon_index_style_container {
+width:80px;
+padding:4px 0;
+text-align:center;
+float:left;
+}
+.TNG_community_blog_article_detail_div_icon_index_style {
+width:40px;
+height:40px;
+border:1px solid #98BF0E;
+vertical-align:middle;
+}
+#TNG_community_blog_article_detail_div_title_index_style_container {
+width:auto!important;
+font-size:14px;
+padding:0 20px;
+/*height:48px;
+line-height:48px;*/
+float:left;
+white-space: normal;
+overflow: hidden;
+margin-top:18px;
+}
+#TNG_community_blog_article_detail_div_readall_index_style_container {
+padding:      4px 10px;
+line-height:  48px;
+text-align:   center;
+font-weight:  bold;
+float:right;
+}
+/* --- FINE STILE INDEX --- */
+
+/* --- STILE BLOG --- */
+#TNG_community_blog_article_detail_div_header_container_stile_blog_chiaro {
+background-image: url("../../images/banda_stile_blog_chiara.jpg");
+width:100%;
+float:left;
+/*margin-bottom:10px;*/
+}
+#TNG_community_blog_article_detail_div_header_container_stile_blog_scuro {
+background-image: url("../../images/banda_stile_blog_scura.jpg");
+width:100%;
+float:left;
+/*margin-bottom:10px;*/
+}
+#TNG_community_blog_article_detail_div_icon_container {
+width:80px;
+padding:8px 0;
+text-align:center;
+float:left;
+}
+.TNG_community_blog_article_detail_div_icon {
+width:60px;
+height:60px;
+border:1px solid #98BF0E;
+vertical-align:middle;
+}
+
+@media(max-width:996px){
+#TNG_community_blog_column_container {
+width:100%!important;
+float:none!important;
+margin:0 auto!important;
+display:inline-block;
+}
+}
+
+#TNG_community_blog_article_detail_div_title_container {
+width:auto!important;
+font-size:14px;
+padding:0 20px;
+/*height:78px;*/
+/*line-height:78px;*/
+float:left;
+white-space: normal;
+overflow: hidden;
+margin-top:30px;
+}
+
+#TNG_community_blog_article_detail_div_date_container {
+width:auto!important;
+font-size:14px;
+padding:0 20px;
+float:left;
+/*height:78px;
+line-height:78px;*/
+text-align:right;
+margin-top:30px;
+}
+#TNG_community_blog_article_detail_div_readall_container {
+padding:      0 10px;
+line-height:  78px;
+text-align:   center;
+font-weight:  bold;
+float:right;
+}
+/* ### CONTENT ### */
+#TNG_community_blog_article_detail_div_content_container {
+padding-top:88px;
+padding-bottom:10px;
+}
+
+#TNG_community_blog_article_detail_div_content_container iframe,
+#TNG_community_blog_article_detail_div_content_container object,
+#TNG_community_blog_article_detail_div_content_container div,
+#TNG_community_blog_article_detail_div_content_container img{
+max-width:100%!important;
+}
+
+#TNG_community_blog_article_detail_div_content_container img{
+max-width:100%!important;
+height: auto !important;
+}
+
+#TNG_community_blog_article_detail_div_content_text {
+width:100%;
+padding:0;
+/*overflow:hidden;*/
+}
+/* ### FOOTER ### */
+#TNG_community_blog_article_detail_div_footer_container_chiaro {
+padding:0 10px;
+background-color:#f3f3f1;
+}
+#TNG_community_blog_article_detail_div_footer_container_scuro {
+padding:0 10px;
+background-color:#dddddd;
+}
+/* --- STILE BLOG --- */
+#TNG_community_blog_article_detail_div_footer_container_stile_blog_chiaro {
+height:44px;
+padding:0 10px;
+background-color:#f3f3f1;
+}
+#TNG_community_blog_article_detail_div_footer_container_stile_blog_scuro {
+height:44px;
+padding:0 10px;
+background-color:#dddddd;
+}
+#TNG_community_blog_article_detail_div_footer_title_text {
+padding:4px 0;
+border-bottom: 2px dotted #e1e1e1;
+}
+#TNG_community_blog_article_detail_div_footer_social_icons {
+padding:8px 0;
+}
+/* ---=== FINE DIV Dettaglio articolo ===--- */
+
+
+/* ---=== DIV SEPARATORE ===--- */
+.div_separator {
+height:1px;
+border-bottom:2px dotted #e1e1e1;
+margin:20px 0;
+}
+.div_search_result_summary {
+border-bottom:1px solid lightgray;
+margin-bottom:10px;
+}
+/* ---=== FINE DIV SEPARATORE ===--- */
+
+
+/* ---=== DIV BACK TO SEARCH ===--- */
+.div_back_to_search_results_button {
+background-color: #9A9B9C;
+color: #FFFFFF;
+height: 40px;
+line-height: 40px;
+margin-top: 10px;
+margin-bottom: 2px;
+/*width: 280px;*/
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+}
+/* ---------------------------------*/
+
+
+/* ---=== DIV SEARCH RESULT TEXT CONTAINER ===--- */
+.div_search_search_result_text_container {
+background-color: #f3f3f1;
+/*width: 970px;*/
+color: #9a9b9c;
+height: 49px;
+line-height: 49px;
+margin-top: 10px;
+margin-bottom: 2px;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+}
+/* -----------------------------------------------*/
+
+
+
+
+/* TOOLBAR __________________________________________________________________________________ */
+#TNG_community_blog_toolbar_container {
+/*background: url(../../images/bg_search.jpg) no-repeat;*/
+width: 100%;
+/*height: 127px;*/
+line-height: unset;
+/*margin-top: -30px;
+margin-bottom: 30px;*/
+margin:10px auto;
+text-align: center;
+background-color: #dedede;
+}
+
+#TNG_community_blog_toolbar {
+/*padding: 20px 0 0 260px;*/
+margin: 10px auto;
+display: inline-block;
+}
+
+.TNG_google_style_page_selector_container{
+text-align:center;
+display:block;
+margin-bottom:10px;
+}
+
+.TNG_community_blog_google_style_page_selector {
+padding:       14px 0;
+text-align:    center;
+width:         970px;
+border-top:    2px dotted #E1E1E1;
+border-bottom: 2px dotted #E1E1E1;
+margin:        14px 0;
+font-size:     14px;
+float:         left;
+}
+
+.TNG_community_blog_main_content_container {
+width: 100%;
+float: left;
+margin-bottom:10px;
+}
+
+/* TABELLA ARTICOLI ___________________________________________________________________________ */
+#TNG_community_blog_table_container {
+/*width: 750px;*/
+border-collapse:   collapse;
+float:             left;
+/*background-image:  url("../images/banda_stile_lista_chiara.jpg");
+background-repeat: no-repeat;*/
+}
+
+#TNG_community_blog_table_article_container {
+width:           75%;
+border-collapse: collapse;
+float:           left;
+/*margin-top:      20px;*/
+}
+
+@media(max-width:996px){
+#TNG_community_blog_table_article_container {
+width:100%;
+}
+}
+
+#TNG_community_blog_column_container {
+width:       200px;
+height:      100%;
+float:       right;
+margin-left: 20px;
+}
+
+.TNG_community_blog_column_in_category_container {
+width:       200px;
+height:      100%;
+float:       right;
+margin-top:  43px;
+height:      78px;
+}
+
+#TNG_community_blog_most_viewed_container {
+background-color: #dddddd;
+text-align:       center;
+top:              45px;
+font-size:        13px;
+font-weight:      bold;
+margin-bottom:    10px;
+height:           78px;
+}
+
+.TNG_community_blog_most_viewed_area_title {
+text-transform:   uppercase;
+color:            #FFFFFF;
+line-height:      16px;
+border-bottom:    2px dotted #FFFFFF;
+line-height:      32px;
+}
+
+.TNG_community_blog_most_viewed_entry {
+color:            #dddddd;
+line-height:      44px;
+}
+
+#TNG_community_blog_category_container {
+background-color: #f3f3f1;
+line-height:      26px;
+text-align:       center;
+color:            #999;
+font-size:        13px;
+}
+
+.TNG_community_blog_category_area_title {
+text-transform:   uppercase;
+font-weight:      bold;
+line-height:      16px;
+border-bottom:    2px dotted #999999;
+line-height:      32px;
+}
+
+.TNG_community_blog_category_entry {
+font-style:     italic;
+font-size:      12px;
+padding:        6px 0;
+}
+
+.TNG_community_blog_category_list_entry {
+font-size:      16px;
+font-weight:    bold;
+color:          #D9AF22;
+text-transform: uppercase;
+}
+/*
+.TNG_community_blog_header_left {
+background-image:url("../images/main_table_container_header_left.jpg");
+background-position:left top;
+background-repeat:no-repeat;
+height:15px;
+width:15px;
+}
+*/
+/*
+.TNG_community_blog_header {
+background-image:url("../images/main_table_container_header_center.jpg");
+background-position:center top;
+background-repeat:repeat-x;
+}
+*/
+/*
+.TNG_community_blog_header_right {
+background-image:url("../images/main_table_container_header_right.jpg");
+background-position:right top;
+background-repeat:no-repeat;
+height:15px;
+width:15px;
+}
+*/
+/*
+.TNG_community_blog_content_left {
+background-image:url("../images/main_table_container_content_left.jpg");
+background-position:left center;
+background-repeat:repeat-y;
+}
+*/
+.TNG_community_blog_content {
+background-color:white;
+color:#AOAOAO;
+}
+
+.TNG_community_blog_content_table_label{
+color:#949B6E;
+font-weight:bold;
+text-align:right;
+width: 200px;
+}
+/*
+.TNG_community_blog_content_right {
+background-image:url("../images/main_table_container_content_right.jpg");
+background-position:right center;
+background-repeat:repeat-y;
+}
+*/
+/*
+.TNG_community_blog_footer_left {
+background-image:url("../images/main_table_container_footer_left.jpg");
+background-position:left bottom;
+background-repeat:no-repeat;
+width:15px;
+}
+*/
+/*
+.TNG_community_blog_footer {
+background-image:url("../images/main_table_container_footer_center.jpg");
+background-position:center bottom;
+background-repeat:repeat-x;
+padding-top: 20px;
+text-align: right;
+// border-top: solid 1px #c6c9ca;
+// border-bottom: 1px dotted lightgray;
+}
+*/
+
+.TNG_community_blog_footer {
+height:   40px;
+}
+
+/*
+.TNG_community_blog_footer_right {
+background-image:url("../images/main_table_container_footer_right.jpg");
+background-position:right bottom;
+background-repeat:no-repeat;
+width:15px;
+}
+*/
+.TNG_community_blog_read_all_link {
+width: 110px;
+line-height: 28px;
+background-color: lightgray;
+color:#d9af22;
+text-align: center;
+margin: auto;
+vertical-align: middle;
+float: right;
+}
+
+.TNG_community_blog_read_all_link a, a:link, a:hover, a:visited {
+color:#d9af22;
+}
+
+
+/* ---=== RIGHE DI COLORE ALTERNATO ===--- */
+#box_tabella_articoli_stile_lista_chiara {
+height:           78px;
+background-image: url("../../images/banda_stile_lista_chiara.jpg");
+background-position: -70px 0;
+}
+#box_tabella_articoli_stile_lista_scura {
+height:           78px;
+background-color: #dddddd;
+}
+#box_tabella_articoli_stile_blog_chiara {
+height:           78px;
+background-image: url("../../images/banda_stile_blog_chiara.jpg");
+background-position: -70px 0;
+}
+#box_tabella_articoli_stile_blog_scura {
+height:           78px;
+background-image: url("../../images/banda_stile_blog_scura.jpg");
+background-position: -70px 0;
+}
+#tr_footer_chiaro {
+height:           44px;
+background-color: #f3f3f1;
+}
+#tr_footer_scuro {
+height:           44px;
+background-color: #dddddd;
+}
+/* ---=== FINE RIGHE DI COLORE ALTERNATO ===--- */
+
+
+/* --- HEADER TABELLA --- */
+#TNG_community_blog_table_container th {
+padding:        0 10px;
+vertical-align: top;
+text-align:     left;
+}
+
+#tr_header{
+padding:     0 10px 0 10px;
+height:      20px;
+width:       100%;
+font-weight: bold;
+color:       #d9af22;
+}
+#colonna_header_title {
+line-height:   78px;
+padding:       0px 20px;
+width:         400px;
+}
+#colonna_header_date {
+width:         100px;
+font-size:     14px;
+text-align:    right;
+line-height:   78px;
+padding:       0px 20px;
+}
+#colonna_article_header_date {
+width:   33%;
+padding: 0px;
+text-align:right;
+}
+#colonna_header_intro {
+width:45%;
+padding: 6px;
+}
+#colonna_header_read_all {
+width:60px;
+padding: 6px 2px 6px 6px;
+text-align:center;
+}
+/* --- FINE HEADER TABELLA --- */
+
+/* --- COLONNE TABELLA --- */
+#colonna_title {
+padding:     0 40px;
+line-height: 78px;
+font-weight: bold;
+width:       70%;
+font-size:   13px;
+}
+#colonna_category_title {
+padding:        10px 0 4px 0;
+font-weight:    bold;
+text-transform: uppercase;
+}
+#colonna_category_subtitle {
+color:          #666;
+padding:        10px 0 4px 0;
+font-weight:    bold;
+}
+#colonna_article_title {
+background-image:    url("../../images/dot_gray_no_bg.gif");
+background-position: 8px;
+background-repeat:   no-repeat;
+padding:             10px 0 10px 20px;
+border:              1px solid #999;
+font-size:           11px
+}
+#colonna_date {
+padding: 10px;
+border:  1px solid #d3d3d3;
+}
+#colonna_intro {
+padding: 6px;
+}
+#colonna_read_all {
+padding:      0 10px;
+line-height:  78px;
+text-align:   center;
+font-weight:  bold;
+}
+.read_all_button {
+background-color:   #ffffff;
+color:              #999999;
+padding:            10px;
+}
+
+#colonna_text_full {
+width:100%;
+/*padding: 10px;*/
+line-height: 16px;
+}
+
+#area_insert_blog_comment{
+width:100%!important;
+text-align: center;
+}
+
+#area_insert_blog_comment div:first-child{
+/*width:100%!important;*/
+line-height:unset!important;
+/*height:unset!important;*/
+margin: 2px auto;
+}
+#area_insert_blog_comment table{
+width:100%!important;
+}
+
+#area_insert_blog_comment input{
+width:100%!important;
+border:none;
+margin-bottom:2px;
+}
+#area_insert_blog_comment textarea{
+width:100%!important;
+border:none;
+margin-bottom:2px;
+}
+
+#number{max-width: 100px;}
+
+#number -div {display:none;}

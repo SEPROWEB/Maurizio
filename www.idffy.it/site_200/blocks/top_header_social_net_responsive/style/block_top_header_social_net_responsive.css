@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "social_icon";
+  src: url("http://www.idffy.it/site_200/blocks/top_header_social_net_responsive/font/social_icons_pro_set_rounded.eot"); /* IE9 Compat Modes */
+  src: url("http://www.idffy.it/site_200/blocks/top_header_social_net_responsive/font/social_icons_pro_set_rounded.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("http://www.idffy.it/site_200/blocks/top_header_social_net_responsive/font/social_icons_pro_set_rounded.woff") format("woff"), /* Modern Browsers */
+       url("http://www.idffy.it/site_200/blocks/top_header_social_net_responsive/font/social_icons_pro_set_rounded.ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("http://www.idffy.it/site_200/blocks/top_header_social_net_responsive/font/social_icons_pro_set_rounded.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+.top_header_social_net_responsive_block_icon_container {
+margin-top:0px;
+padding-top:4px;
+}
+
+.top_header_social_net_responsive_block_selector_list_element {
+cursor:pointer;
+color:white;
+}
+
+
+.top_header_social_net_responsive_block_selector_list_element img {height:20px;}
+
+@media (max-width: 768px) {
+  /*.top_header_social_net_responsive_block_selector_list_element img {height:28px;}*/
+}
+
+.tng_social_network_icon {
+font-family: social_icon, monospace;
+display: inline-block;
+font-size: 25px;
+color: #fff!important;
+margin: 0;
+cursor: pointer;
+text-decoration: none;
+}
+
+.tng_social_network_icon.facebook:before { content: "f"; }
+
+.tng_social_network_icon:hover,
+.tng_social_network_icon:active,
+.tng_social_network_icon:focus {
+color: #fff;
+text-decoration: none;
+}

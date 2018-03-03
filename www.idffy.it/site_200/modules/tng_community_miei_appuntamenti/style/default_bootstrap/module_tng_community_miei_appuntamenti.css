@@ -1,0 +1,383 @@
+#TNG_community_miei_appuntamenti_table_detail_tr_header {
+background-color:#9a9b9c;
+height:28px;
+line-height:28px;
+font-weight:bold;
+font-size:14px;
+color:#ffffff;
+}
+#TNG_community_miei_appuntamenti_table_detail_tr {
+background-color:#f3f3f3;
+height:49px;
+line-height:49px;
+font-size:12px;
+color:#9a9b9c;
+}
+
+#send_button {
+background-color:#f3f3f3;
+color:#ffffff;
+}
+.form_send_button {
+padding:10px;
+font-weight:bold;
+background-color:#9a9b9c;
+text-transform:uppercase;
+}
+
+#confirm_form{
+margin: 10px 0;
+background-color: #F3F3F3;
+background-repeat: no-repeat;
+width: 99.9%;
+/*height: 336px;*/
+text-align: center;
+}
+#confirm_form div:first-child{
+width:100%!important;
+}
+
+#confirm_form table{
+width:100%!important;
+}
+
+/* ---=== TABELLA FORM CONFERMA PRESENZA ===--- */
+#module_tng_community_miei_appuntamenti_confirm_table{
+margin: 0 auto;
+padding:20px;
+}
+#module_tng_community_miei_appuntamenti_confirm_table th{
+text-align: right;
+color: #797979;
+font-family: Arial,Helvetica,sans-serif;
+font-weight:bolder;
+width:25%;
+}
+#module_tng_community_miei_appuntamenti_confirm_table td{
+width:auto;
+padding-right:2px;
+}
+#module_tng_community_miei_appuntamenti_confirm_table input{
+width:100%;
+border:none;
+margin-bottom:2px;
+}
+#module_tng_community_miei_appuntamenti_confirm_table textarea{
+width:100%;
+border:none;
+margin-bottom:2px;
+}
+.required_field {
+color:#D6A201;
+width:100px;
+}
+.edit_metatag_char_left_input{
+background-color:#FFFFFF;
+border: 1px solid #797979;
+width:26px!important;
+}
+.edit_metatag_char_left_span{
+font-size:10px;
+}
+
+#number{
+width:100px!important;
+border:none;
+}
+/* --------------------------------------------- */
+
+
+/* ---=== BOTTONE FORM ===--- */
+.send_button {
+background-color:   #999999;
+color:              #ffffff;
+padding:            10px;
+}
+/* -------------------------- */
+
+
+/* EVIDENZA CAMPI NON COMPILATI ___________________________________________________________________*/
+.tng_community_miei_appuntamenti_cell_highlight {
+background-color: #F5F590; /* Giallo */
+}
+
+/* TABELLA APPUNTAMENTI ___________________________________________________________________________ */
+
+/* --- HEADER TABELLA --- */
+#TNG_community_miei_appuntamenti_table_container th {
+/* padding:        0 10px; */
+padding-left:2px;
+vertical-align: top;
+text-align:     left;
+border:1px solid white!important;
+width: auto !important;
+}
+
+#TNG_community_miei_appuntamenti_table_container td {
+padding: 2px;
+line-height: 12px;
+border:1px solid white;
+}
+
+#TNG_community_miei_appuntamenti_table_container {
+width:           100%;
+}
+/*
+.TNG_community_miei_appuntamenti_header_left {
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_header_left.jpg");
+background-position:left top;
+background-repeat:no-repeat;
+height:15px;
+width:15px;
+}
+*/
+/*
+.TNG_community_miei_appuntamenti_header {
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_header_center.jpg");
+background-position:center top;
+background-repeat:repeat-x;
+}
+*/
+/*
+.TNG_community_miei_appuntamenti_header_right {
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_header_right.jpg");
+background-position:right top;
+background-repeat:no-repeat;
+height:15px;
+width:15px;
+}
+*/
+/*
+.TNG_community_miei_appuntamenti_content_left {
+background-color:#6E7742;
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_content_left.jpg");
+background-position:left center;
+background-repeat:repeat-y;
+}
+*/
+.TNG_community_miei_appuntamenti_content {
+color:#797979;
+padding: 0 10px 0 10px;
+}
+
+.TNG_community_miei_appuntamenti_content_table_label{
+color:#949B6E;
+font-weight:bold;
+text-align:right;
+width: 100px;
+}
+/*
+.TNG_community_miei_appuntamenti_content_right {
+background-color:#6E7742;
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_content_right.jpg");
+background-position:right center;
+background-repeat:repeat-y;
+}
+*/
+/*
+.TNG_community_miei_appuntamenti_footer_left {
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_footer_left.jpg");
+background-position:left bottom;
+background-repeat:no-repeat;
+width:15px;
+}
+*/
+/*
+.TNG_community_miei_appuntamenti_footer {
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_footer_center.jpg");
+background-position:center bottom;
+background-repeat:repeat-x;
+}
+*/
+/*
+.TNG_community_miei_appuntamenti_footer_right {
+background-image:url("../../../modules/tng_community_miei_appuntamenti/images/tng_community_miei_appuntamenti_table_footer_right.jpg");
+background-position:right bottom;
+background-repeat:no-repeat;
+width:15px;
+}
+*/
+
+.TNG_community_miei_appuntamenti_read_all_link a, a:link, a:hover, a:visited {
+color:#d9af22;
+}
+
+/* ---=== RIGHE DI COLORE ALTERNATO ===--- */
+#box_tabella_appuntamenti_chiara {
+/*background-color:#ffffff;*/
+background-image: url("../../images/banda_chiara.jpg");
+height:28px!important;
+}
+#box_tabella_appuntamenti_scura {
+background-color:#dddddd;
+}
+/* --------------------------------------- */
+
+
+/* --- TABELLA DETTAGLI APPUNTAMENTO --- */
+#appointment_details_table {
+border: 1px solid #c6c9ca;
+width:960px;
+border-collapse: collapse;
+}
+
+/* --- TABELLA FORM CONFERMA PRESENZA --- */
+#confirm_appointment_form_div {
+width: 100%px;
+border: 1px solid #c6c9ca;
+padding: 10px 0;
+margin-top: 20px;
+}
+
+/* --- HEADER TABELLA --- */
+#tr_header {
+padding:     0 10px 0 10px;
+height:      20px;
+width:       100%;
+font-weight: bold;
+color:       #d9af22;
+border:      1px solid #FFFFFF;
+}
+#colonna_header_when {
+width:   20%;
+padding: 0px;
+}
+#colonna_header_date {
+width:   20%;
+padding: 0px;
+}
+#colonna_header_time {
+width:   20%;
+padding: 0px;
+}
+#colonna_header_where {
+width:   23%;
+padding: 0px;
+}
+#colonna_header_address {
+padding: 0px;
+}
+#colonna_header_subject {
+width:   66%;
+padding: 0px;
+}
+#colonna_header_description {
+padding: 0px;
+}
+#colonna_header_short_description {
+padding: 0px;
+}
+#colonna_header_info {
+width:       4%;
+text-align:  center
+}
+#colonna_header_form {
+padding: 0 10px 20px 10px;
+vertical-align:middle;
+}
+/* --- FINE HEADER TABELLA --- */
+
+/* --- COLONNE TABELLA --- */
+#colonna_when {
+border:  1px solid #d3d3d3;
+padding: 10px;
+}
+#colonna_date {
+padding:0 10px;
+line-height:49px;
+}
+#colonna_time {
+padding:0 10px;
+line-height:49px;
+}
+#colonna_where {
+padding:0 10px;
+line-height:49px;
+text-transform: capitalize;
+}
+#colonna_address {
+padding:0 10px;
+line-height:49px;
+text-transform: capitalize;
+}
+#colonna_subject {
+padding:0 10px;
+line-height:49px;
+}
+#colonna_short_description {
+padding: 10px;
+}
+#colonna_full_description {
+padding:0 10px;
+
+}
+#colonna_puls_confirm  {
+text-align: center;
+padding:10px;
+}
+#colonna_info {
+padding:0 10px;
+line-height:49px;
+text-align:   center;
+font-weight:  bold;
+color:        #d9af22;
+}
+.TNG_community_miei_appuntamenti_header_left {
+width: 25px;
+}
+
+.TNG_google_style_page_selector_container{
+display:inline-block;
+}
+.TNG_google_style_page_selector_selected_page_button{
+float:left;
+}
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i);
+#TNG_main_layout_template_content_container{width:100%!important;padding:0!important;}
+
+h1,
+h2 {
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Ubuntu', 'PT Sans', Helvetica, Arial, sans-serif !important;
+font-weight: 700 !important;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+  }
+
+.orange {
+    color: #bb7200;
+}
+.shadow-dark {
+    text-shadow: 2px 2px 2px #333;
+  }
+.white {
+    color: #fff;
+  }
+
+.parallax {
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-caption {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.azzera {
+    padding: 0!important;
+    margin: 0!important;
+  }

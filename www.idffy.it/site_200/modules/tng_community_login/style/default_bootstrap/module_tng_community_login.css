@@ -1,0 +1,136 @@
+
+#TNG_module_password_text{
+font-size: 12px;
+color: black;
+}
+
+.TNG_module_login_message01_container{
+border:         0px solid;
+padding:        10px 30px;
+}
+
+.TNG_module_login_message01_text{
+color:       #ffffff;
+font-weight: bold;
+font-size:   18px;
+}
+
+.TNG_module_login_form_container{
+border:         0px solid;
+/*width:          970px;*/
+margin:10px auto;
+}
+
+.TNG_module_login_pw_recovery_container{
+border:         0px solid;
+width:          100%;
+padding-bottom: 20px;
+}
+
+.TNG_module_login_form_field_container{
+padding:          10px 30px;
+color:            #000;
+}
+
+.TNG_module_login_form_button_container{
+background-color: #B1C903;
+border:           0px solid;
+width:            99%;
+padding-top:      10px;
+padding-bottom:   10px;
+text-align:       right;
+}
+
+/* Classi della tabella di contenimento bordata */
+/*
+.TNG_login_table_container_header_left {
+width: 15px;
+background-image: url("../images/login_table_container_header_left.jpg");
+background-repeat: no-repeat;
+background-position: top left;
+}
+
+.TNG_login_table_container_header {
+background-image: url("../images/login_table_container_header_center.jpg");
+background-repeat: repeat-x;
+background-position: top;
+}
+
+.TNG_login_table_container_header_right {
+width: 15px;
+background-image: url("../images/login_table_container_header_right.jpg");
+background-repeat: no-repeat;
+background-position: top right;
+}
+*/
+.TNG_login_table_container_content_left {
+width:  250px;
+height: 200px;
+background-image: url("../../images/login_key_logo.png");
+}
+
+.TNG_login_table_container_content {
+background-color: #e2b229;
+vertical-align:   middle;
+border-left:      2px dotted #fff;
+border-right:     2px dotted #fff;
+padding:          0 30px;
+}
+
+.TNG_login_table_container_content_right {
+background-color: #e2b229;
+vertical-align:   middle;
+padding:          0 30px;
+color:            #000;
+}
+@media (max-width: 992px) {
+.TNG_login_table_container_content_left{
+ display:none;
+}
+}
+@media (max-width: 768px) {
+.TNG_login_table_container_content{
+ float:left;
+ padding: 0 2px;
+ width:100%;
+ text-align:center;
+ border:none;
+}
+.TNG_login_table_container_content_right{
+ float:left;
+ padding: 0 10px;
+ width:100%;
+ text-align:center;
+}
+.TNG_module_login_form_field_container{
+padding:0px;
+}
+.TNG_module_login_form_field_container input[type="text"],
+.TNG_module_login_form_field_container input[type="password"]{
+width:95%;
+}
+.TNG_module_login_message01_container{
+padding:2px;
+}
+}
+
+.TNG_login_table_container_footer_left {
+width: 15px;
+background-image: url("../images/login_table_container_footer_left.html");
+background-repeat: no-repeat;
+background-position: bottom left;
+}
+
+.TNG_login_table_container_footer {
+background-image: url("../images/login_table_container_footer_center.html");
+background-repeat: repeat-x;
+background-position: bottom;
+}
+
+.TNG_login_table_container_footer_right {
+width: 15px;
+background-image: url("../images/login_table_container_footer_right.html");
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+/* Fine Classi della tabella di contenimento bordata */

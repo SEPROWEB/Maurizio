@@ -1,0 +1,70 @@
+/**********************************************
+Version:     1.02
+Relase date: 20/10/2014
+**********************************************/
+.block_top_responsive_menu_h_menu_internal_container li>a{
+color:white;
+/*background-color:#555555!important;*/
+font: 13px Verdana;
+padding-top:0!important;
+padding-bottom:0!important;
+padding-left:10px!important;
+padding-right:10px!important;
+text-transform:uppercase;
+}
+
+.block_top_responsive_menu_h_menu_internal_container ul{
+list-style-type: none;
+padding-top: 9px;
+float:none;
+margin: auto;
+display:inline-block;
+}
+
+.block_top_responsive_menu_h_menu_internal_container .icon-bar{
+background-color:white!important;
+}
+
+.block_top_responsive_menu_h_menu_external_container{
+/*height:40px;*/
+}
+
+.block_top_responsive_menu_h_menu_internal_container .navbar-brand{
+height:40px;
+}
+.block_top_responsive_menu_h_menu_internal_container .navbar-toggle{
+padding-top:3px;
+padding-bottom:0;
+font: 13px Verdana;
+color: #777;
+}
+
+.TNG_main_layout_template_main_nav_navbar{
+margin-bottom:0px!important;
+}
+
+.top_responsive_menu_brand{
+padding: 0 0 0 10px!important;
+}
+
+.top_responsive_menu_brand img{
+height:auto;
+max-width:100px;
+}
+
+@media(min-width:768px){
+.top_responsive_menu_brand img{
+padding-left:10px;
+}
+}
+
+.top_responsive_menu_collapsible_container{
+text-align:center;
+}
+
+@media(max-width:768px){
+.top_responsive_menu_collapsible_container.collapse.in{
+display:inline-block!important;
+width:100%!important;
+}
+}

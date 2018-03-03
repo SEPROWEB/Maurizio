@@ -1,0 +1,15 @@
+.tng_language_selector_block_icon_container {
+margin-top:10px;
+}
+
+.tng_language_selector_block_selector_list_element {
+cursor:pointer;
+color:white;
+}
+
+
+.tng_language_selector_block_selector_list_element img {height:20px;}
+
+@media (max-width: 768px) {
+  /*.tng_language_selector_block_selector_list_element img {height:28px;}*/
+}
